@@ -1,0 +1,1 @@
+{"name":"jev-flappy","private":true,"type":"module","scripts":{"start":"node --env-file=.env server.mjs","build":"node build.mjs","test":"node --test game.test.mjs","test:hosting":"node --test worker.test.mjs","check:jev":"node --env-file=.env research/probe.mjs"}}

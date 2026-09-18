@@ -1,0 +1,475 @@
+{
+  "final": {
+    "id": "b6c60780-d727-48cf-af27-c307e5f0c68c",
+    "seed": 42,
+    "time": 2.1360000000000015,
+    "y": 23.28672000000034,
+    "velocity": -80.83999999999978,
+    "score": 0,
+    "alive": false,
+    "steps": 14,
+    "pipes": [
+      {
+        "id": 0,
+        "x": 202.319999999996,
+        "center": 205.51593845244497,
+        "passed": false
+      },
+      {
+        "id": 1,
+        "x": 457.3200000000067,
+        "center": 169.38750999048352,
+        "passed": false
+      },
+      {
+        "id": 2,
+        "x": 712.3200000000097,
+        "center": 277.00186361093074,
+        "passed": false
+      },
+      {
+        "id": 3,
+        "x": 967.3200000000097,
+        "center": 198.96193851716816,
+        "passed": false
+      },
+      {
+        "id": 4,
+        "x": 1222.3200000000097,
+        "center": 232.64524336438626,
+        "passed": false
+      },
+      {
+        "id": 5,
+        "x": 1477.3200000000097,
+        "center": 155.6460590660572,
+        "passed": false
+      },
+      {
+        "id": 6,
+        "x": 1732.3200000000097,
+        "center": 248.4018828952685,
+        "passed": false
+      },
+      {
+        "id": 7,
+        "x": 1987.3200000000097,
+        "center": 176.0612008254975,
+        "passed": false
+      },
+      {
+        "id": 8,
+        "x": 2242.3200000000097,
+        "center": 342.2390152653679,
+        "passed": false
+      },
+      {
+        "id": 9,
+        "x": 2497.3200000000097,
+        "center": 368.8195405714214,
+        "passed": false
+      },
+      {
+        "id": 10,
+        "x": 2752.3200000000097,
+        "center": 337.70459920633584,
+        "passed": false
+      },
+      {
+        "id": 11,
+        "x": 3007.3200000000097,
+        "center": 259.92888019420207,
+        "passed": false
+      },
+      {
+        "id": 12,
+        "x": 3262.3200000000097,
+        "center": 291.2402082188055,
+        "passed": false
+      },
+      {
+        "id": 13,
+        "x": 3517.3200000000097,
+        "center": 339.5203612372279,
+        "passed": false
+      },
+      {
+        "id": 14,
+        "x": 3772.3200000000097,
+        "center": 281.2233508238569,
+        "passed": false
+      },
+      {
+        "id": 15,
+        "x": 4027.3200000000097,
+        "center": 169.9650344159454,
+        "passed": false
+      },
+      {
+        "id": 16,
+        "x": 4282.32000000001,
+        "center": 180.84615556057543,
+        "passed": false
+      },
+      {
+        "id": 17,
+        "x": 4537.32000000001,
+        "center": 359.01942083612084,
+        "passed": false
+      },
+      {
+        "id": 18,
+        "x": 4792.32000000001,
+        "center": 353.4021980734542,
+        "passed": false
+      },
+      {
+        "id": 19,
+        "x": 5047.32000000001,
+        "center": 345.6831703800708,
+        "passed": false
+      }
+    ],
+    "usage": {
+      "calls": 14,
+      "tokens": 10921,
+      "cost": 0.00045868200000000013,
+      "ms": 3032
+    },
+    "last": {
+      "action": "coast",
+      "confidence": 0.01,
+      "probabilities": {
+        "flap": 0.5,
+        "coast": 0.5
+      },
+      "tokens": 782,
+      "ms": 161,
+      "before": {
+        "y": 28.835200000000327,
+        "velocity": -123.39999999999976,
+        "time": 2.0800000000000014
+      },
+      "observation": {
+        "coordinateSystem": "Y grows DOWN. Negative velocity moves up. Positive velocity falls.",
+        "bird": {
+          "y": 28.8,
+          "verticalVelocity": -123.4,
+          "radius": 13
+        },
+        "world": {
+          "top": 0,
+          "bottom": 520,
+          "gravity": 760,
+          "flapVelocity": -245
+        },
+        "nextPipe": {
+          "distanceToFront": 19.6,
+          "distanceToBack": 83.6,
+          "safeBirdCenterMin": 131.5,
+          "safeBirdCenterMax": 279.5,
+          "gapCenter": 205.5,
+          "secondsUntilFront": 0.1
+        },
+        "predictions": {
+          "flap": {
+            "yAfter320ms": 16.2,
+            "verticalVelocityAfter320ms": -201.3,
+            "collisionWithin320ms": true
+          },
+          "coast": {
+            "yAfter320ms": 23.2,
+            "verticalVelocityAfter320ms": -79.7,
+            "collisionWithin320ms": true
+          }
+        }
+      }
+    },
+    "history": [
+      {
+        "step": 14,
+        "action": "coast",
+        "y": 23,
+        "ms": 161
+      },
+      {
+        "step": 13,
+        "action": "flap",
+        "y": 29,
+        "ms": 168
+      },
+      {
+        "step": 12,
+        "action": "coast",
+        "y": 58,
+        "ms": 173
+      },
+      {
+        "step": 11,
+        "action": "coast",
+        "y": 28,
+        "ms": 136
+      },
+      {
+        "step": 10,
+        "action": "coast",
+        "y": 19,
+        "ms": 184
+      },
+      {
+        "step": 9,
+        "action": "flap",
+        "y": 28,
+        "ms": 138
+      },
+      {
+        "step": 8,
+        "action": "flap",
+        "y": 57,
+        "ms": 179
+      },
+      {
+        "step": 7,
+        "action": "flap",
+        "y": 86,
+        "ms": 222
+      },
+      {
+        "step": 6,
+        "action": "flap",
+        "y": 115,
+        "ms": 188
+      },
+      {
+        "step": 5,
+        "action": "coast",
+        "y": 144,
+        "ms": 187
+      },
+      {
+        "step": 4,
+        "action": "flap",
+        "y": 154,
+        "ms": 172
+      },
+      {
+        "step": 3,
+        "action": "coast",
+        "y": 182,
+        "ms": 205
+      }
+    ]
+  },
+  "log": [
+    {
+      "step": 1,
+      "y": 221,
+      "velocity": -123,
+      "score": 0,
+      "alive": true,
+      "action": "flap",
+      "confidence": 0.34,
+      "probabilities": {
+        "coast": 0.33,
+        "flap": 0.67
+      },
+      "tokens": 774,
+      "ms": 466
+    },
+    {
+      "step": 2,
+      "y": 192,
+      "velocity": -123,
+      "score": 0,
+      "alive": true,
+      "action": "flap",
+      "confidence": 0.05,
+      "probabilities": {
+        "coast": 0.47,
+        "flap": 0.53
+      },
+      "tokens": 781,
+      "ms": 453
+    },
+    {
+      "step": 3,
+      "y": 182,
+      "velocity": -2,
+      "score": 0,
+      "alive": true,
+      "action": "coast",
+      "confidence": 0.09,
+      "probabilities": {
+        "flap": 0.46,
+        "coast": 0.54
+      },
+      "tokens": 783,
+      "ms": 205
+    },
+    {
+      "step": 4,
+      "y": 154,
+      "velocity": -123,
+      "score": 0,
+      "alive": true,
+      "action": "flap",
+      "confidence": 0.38,
+      "probabilities": {
+        "flap": 0.69,
+        "coast": 0.31
+      },
+      "tokens": 781,
+      "ms": 172
+    },
+    {
+      "step": 5,
+      "y": 144,
+      "velocity": -2,
+      "score": 0,
+      "alive": true,
+      "action": "coast",
+      "confidence": 0.01,
+      "probabilities": {
+        "flap": 0.49,
+        "coast": 0.51
+      },
+      "tokens": 783,
+      "ms": 187
+    },
+    {
+      "step": 6,
+      "y": 115,
+      "velocity": -123,
+      "score": 0,
+      "alive": true,
+      "action": "flap",
+      "confidence": 0.36,
+      "probabilities": {
+        "flap": 0.68,
+        "coast": 0.32
+      },
+      "tokens": 777,
+      "ms": 188
+    },
+    {
+      "step": 7,
+      "y": 86,
+      "velocity": -123,
+      "score": 0,
+      "alive": true,
+      "action": "flap",
+      "confidence": 0.1,
+      "probabilities": {
+        "flap": 0.55,
+        "coast": 0.45
+      },
+      "tokens": 782,
+      "ms": 222
+    },
+    {
+      "step": 8,
+      "y": 57,
+      "velocity": -123,
+      "score": 0,
+      "alive": true,
+      "action": "flap",
+      "confidence": 0.1,
+      "probabilities": {
+        "coast": 0.45,
+        "flap": 0.55
+      },
+      "tokens": 778,
+      "ms": 179
+    },
+    {
+      "step": 9,
+      "y": 28,
+      "velocity": -123,
+      "score": 0,
+      "alive": true,
+      "action": "flap",
+      "confidence": 0.16,
+      "probabilities": {
+        "coast": 0.42,
+        "flap": 0.58
+      },
+      "tokens": 780,
+      "ms": 138
+    },
+    {
+      "step": 10,
+      "y": 19,
+      "velocity": -2,
+      "score": 0,
+      "alive": true,
+      "action": "coast",
+      "confidence": 0.61,
+      "probabilities": {
+        "flap": 0.19,
+        "coast": 0.81
+      },
+      "tokens": 782,
+      "ms": 184
+    },
+    {
+      "step": 11,
+      "y": 28,
+      "velocity": 120,
+      "score": 0,
+      "alive": true,
+      "action": "coast",
+      "confidence": 0.38,
+      "probabilities": {
+        "coast": 0.69,
+        "flap": 0.31
+      },
+      "tokens": 777,
+      "ms": 136
+    },
+    {
+      "step": 12,
+      "y": 58,
+      "velocity": 241,
+      "score": 0,
+      "alive": true,
+      "action": "coast",
+      "confidence": 0.06,
+      "probabilities": {
+        "coast": 0.53,
+        "flap": 0.47
+      },
+      "tokens": 781,
+      "ms": 173
+    },
+    {
+      "step": 13,
+      "y": 29,
+      "velocity": -123,
+      "score": 0,
+      "alive": true,
+      "action": "flap",
+      "confidence": 0.19,
+      "probabilities": {
+        "flap": 0.59,
+        "coast": 0.41
+      },
+      "tokens": 780,
+      "ms": 168
+    },
+    {
+      "step": 14,
+      "y": 23,
+      "velocity": -81,
+      "score": 0,
+      "alive": false,
+      "action": "coast",
+      "confidence": 0.01,
+      "probabilities": {
+        "flap": 0.5,
+        "coast": 0.5
+      },
+      "tokens": 782,
+      "ms": 161
+    }
+  ]
+}

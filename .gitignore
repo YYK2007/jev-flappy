@@ -1,0 +1,6 @@
+.env
+.DS_Store
+dist/
+.dev.vars
+.sites-runtime/
+.openai/hosting.json
